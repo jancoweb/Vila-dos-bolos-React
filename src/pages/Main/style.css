@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('../../1-imgsrc/body.png');
+}
+
+h1 {
+  font-family: 'Pacifico';
+  font-size: 68px;
+}
+h2 {
+  font-family: 'Pacifico';
+  font-size: 62px
+}
+h3{
+  font-family: 'Pacifico';
+  font-size: 56px;
+}
+h4{
+  font-family: 'Pacifico';
+  font-size: 48px;
+}
+span, p {
+  font-family: 'Quicksand';
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+  .hero {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+  }
+  #subtitle-container {
+    text-align: left;
+  }
+  .showcase {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+.hero {
+  padding: 120px 0;
+  display: flex;
+  max-width: 1206px;
+  margin: auto;
+  gap: 30px;
+}
+#subtitle-container {
+  max-width: 500px;
+  font-size: 24px;
+  margin-bottom: 21px;
+}
+.title-2 {
+  font-size: 30px;
+}
+.hero-img-container img {
+  width: 591px;
+  height: 430px;
+}

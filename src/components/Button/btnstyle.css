@@ -1,0 +1,22 @@
+.main-btn {
+  color: #fff;
+  border: none;
+  width: 444px;
+  height: 72px;
+  background-color: #60A692;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(96, 166, 146, 0.502);
+}
+button:hover {
+  cursor: pointer;
+  background-color:rgb(54, 114, 97);
+}
+.second-btn {
+  color: #fff;
+  border: none;
+  width: 338px;
+  height: 50px;
+  background-color: #60A692;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(96, 166, 146, 0.502);
+}

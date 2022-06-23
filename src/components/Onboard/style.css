@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.onboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-top: 120px;
+}
+.onboard img {
+  max-width: 386px;
+}
+.onboard-content span {
+  font-size: 32px;
+}
+.onboard-content {
+  padding: 26px 30px;
+  background-color: #AFCBC3;
+  height: 386px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.onboard-subtitles{
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+.onboard-subtitles span{
+  font-size: 24px;
+}
+.onboard-subtitles > div {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}

@@ -1,0 +1,26 @@
+footer {
+  background-color: #60A692;
+  color: #fff;
+  max-height: 343px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 62px;
+  align-items: center;
+}
+
+.address, .logo_socials {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.logo_socials {
+  align-items: center;
+}
+
+.categories, .contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  align-items: flex-start;
+}
