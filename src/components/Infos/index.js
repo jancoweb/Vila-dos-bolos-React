@@ -10,7 +10,7 @@ export default function Infos(){
       <h2>Faça sua encomenda</h2>
       <div className='info-container'>
         <div className='customerOption'>
-          <p>Consumidor</p>
+          <p style={{fontSize:'30px'}}>Consumidor</p>
           <div>
             <img src={Icon1}/><span>@viladosbolos</span>
           </div>
@@ -19,10 +19,12 @@ export default function Infos(){
           </div>
         </div>
         <div className='franchise'>
-          <p>Seja um franqueado</p>
-          <p className='no-margin-bottom'>
+          <p style={{fontSize:'30px'}}>Seja um franqueado</p>
+          <div>
+          <p className='no-margin-bottom' style={{textAlign:'left'}}>
           Ut consequat nibh diam, a pulvinar tellus bibendum eget. Vivamus lorem nunc, . Quisque eleifend, odio eu tristique rutrum, nisi diam gravida justo,.
           </p>
+          </div>
           <ButtonFranchise/>
         </div>
       </div>

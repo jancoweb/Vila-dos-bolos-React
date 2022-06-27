@@ -11,6 +11,8 @@
 .info-container {
   display: flex;
   justify-content: space-around;
+  text-align: center;
+
 }
 .info-container p {
   font-weight: bold;

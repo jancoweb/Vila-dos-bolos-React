@@ -7,7 +7,7 @@
   border-radius: 8px;
   box-shadow: 4px 4px 8px rgba(96, 166, 146, 0.502);
 }
-button:hover {
+.main-btn:hover, .second-btn:hover {
   cursor: pointer;
   background-color:rgb(54, 114, 97);
 }

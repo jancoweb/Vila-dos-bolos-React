@@ -15,6 +15,10 @@
   border-radius: 8px;
   padding-bottom: 27px;
 }
+.product:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+}
 .product p {
   padding: 0 4px;
   margin-bottom: 29px;
@@ -28,7 +32,7 @@
   font-size: 24px;
   padding: 0 24px;
 }
-.product button:hover {
+.product:hover a {
   cursor: pointer;
   color: #fff;
 }
